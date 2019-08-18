@@ -11,9 +11,24 @@ Markdown is a lightweight and easy-to-use syntax for styling your writing. It in
 ```markdown
 Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+# Array & Strings
+## 1.1 Is Unique Stiring (UniqueString.cs) 
+### Implement an algo to determine if a string has all unique characters.
+
+## 1.2 Check Permutation (IsStringPermutation.cs)
+### Given two strings, write a method to decide if one is a permutation of other. A Permutation of a string is another string that contains same characters, only the order of characters can be different. For example, “abcd” and “dabc” are Permutation of each other. 
+
+## 1.3 URLify (URLify.cs)
+### Write a method to replace all spaces in a string with "%20"
+
+## 1.4 Palindrome Permutation (PalindronePermutation.cs)
+### Given a string, write a function to check if it is a permutation of a palindrome. A palindrome is a word or phrase that is same forwards and backwards.
+
+## 1.5 One Away (OneAway.cs)
+### There are three types of edits that can be performed on strings. Insert a character, remove a character or replace a character. Given 2 strings, write a function to check if they are one edit (or zero edits) away
+ 
+## 1.6 String Compression (StringCompression.cs)
+### Implement a method to perform basic string compression using the counts of repeated characters. For e.g. - the string aabcccccaaa would become a2b1c5a3. If the compressed stirng would not become small than the original string, your method should return the original string.
 
 - Bulleted
 - List
@@ -34,4 +49,4 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 
 ### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we�ll help you sort it out.
+Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
