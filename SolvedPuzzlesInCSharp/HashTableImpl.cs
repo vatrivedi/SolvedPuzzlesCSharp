@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace MyPuzzles
+namespace SolvedPuzzlesInCSharp
 {
     public struct KeyVal<K, V>
     {

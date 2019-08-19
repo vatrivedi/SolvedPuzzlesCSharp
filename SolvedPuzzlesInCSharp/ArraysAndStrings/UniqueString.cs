@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace MyPuzzles.ArraysAndStrings
+namespace SolvedPuzzlesInCSharp.ArraysAndStrings
 {
     /// <summary>
     /// Implement an algo to determine if a string has all unique characters

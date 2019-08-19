@@ -1,7 +1,7 @@
-﻿using MyPuzzles.ArraysAndStrings;
+﻿using SolvedPuzzlesInCSharp.ArraysAndStrings;
 using System;
 
-namespace MyPuzzles
+namespace SolvedPuzzlesInCSharp
 {
     class Program
     {
@@ -12,10 +12,13 @@ namespace MyPuzzles
             //just keeping the current solving problem in if condition; nothing else
             if (condition)
             {
-                StringCompression.CompressedString("aabcccccaaa");
+
+                RotateMatrixImplementation(4);
             }
             else
             {
+
+                StringCompression.CompressedString("aabcccccaaa");
                 OneAway.IsStringOneAway("pale", "paled");
                 PalindromePermutation.IsPalindromePermutation("Mr. owl ate my Metal worm");
                 URLify.URLifyString("Spaces in this string will be replaced by percent20");
@@ -26,7 +29,24 @@ namespace MyPuzzles
             }
         }
 
+
         #region Methods for calling corresponding Problem-Classes 
+
+        public static void RotateMatrixImplementation(int len)
+        {
+            int[][] matrix = new int[len][];
+            var random = new Random();
+            for (int i = 0; i < matrix.Length; i++)
+            {
+                matrix[i] = new int[len]; // Create inner array
+                for (int j = 0; j < matrix[i].Length; j++)
+                {
+                    //generate random numbers
+                    matrix[i][j] = random.Next(1, Convert.ToInt32(Math.Pow(len, 3)));
+                }
+            }
+            RotateMatrix.RotateMatrixBy90Degress(matrix);
+        }
 
         public static void HashTableImplentation()
         {

@@ -1,8 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Text;
 
-namespace MyPuzzles.ArraysAndStrings
+namespace SolvedPuzzlesInCSharp.ArraysAndStrings
 {
     /// <summary>
     /// Check if two strings are permutation of each other - 
@@ -10,7 +9,7 @@ namespace MyPuzzles.ArraysAndStrings
     /// only the order of characters can be different. 
     /// For example, “abcd” and “dabc” are Permutation of each other.
     /// </summary>
-    public static class IsStringPermutation
+    public class IsStringPermutation
     {
         /// <summary>
         /// Check if two strings are permutation of each other - 

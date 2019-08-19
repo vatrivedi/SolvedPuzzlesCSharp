@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace MyPuzzles.ArraysAndStrings
+namespace SolvedPuzzlesInCSharp.ArraysAndStrings
 {
     public class StringCompression
     {
