@@ -30,6 +30,9 @@ Syntax highlighted code block
 ## 1.6 String Compression (StringCompression.cs)
 ### Implement a method to perform basic string compression using the counts of repeated characters. For e.g. - the string aabcccccaaa would become a2b1c5a3. If the compressed stirng would not become small than the original string, your method should return the original string.
 
+## 1.7 Rotate Matrix (RotateMatrix.cs)
+### Given a N*N matrix , write a method to rotate the image by 90 degrees
+
 - Bulleted
 - List
 
