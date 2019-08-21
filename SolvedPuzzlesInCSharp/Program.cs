@@ -12,12 +12,12 @@ namespace SolvedPuzzlesInCSharp
             //just keeping the current solving problem in if condition; nothing else
             if (condition)
             {
-
-                RotateMatrixImplementation(4);
+                StringRotation.IsStringRotation("waterbottle", "erbottlewat");
             }
             else
             {
-
+                ZeroMatrixImplementation();
+                RotateMatrixImplementation(4);
                 StringCompression.CompressedString("aabcccccaaa");
                 OneAway.IsStringOneAway("pale", "paled");
                 PalindromePermutation.IsPalindromePermutation("Mr. owl ate my Metal worm");
@@ -29,9 +29,40 @@ namespace SolvedPuzzlesInCSharp
             }
         }
 
-
         #region Methods for calling corresponding Problem-Classes 
 
+        /// <summary>
+        /// Initial method - Write an algo such that if an element in an MxN matrix is 0, its entire row and column are set to 0
+        /// </summary>
+        private static void ZeroMatrixImplementation()
+        {
+            int[][] matrix = new int[][]{
+                new int[]{ 0, 1, 2, 0, 4, 5 },
+                new int[]{ 1, 1, 2, 3, 4, 5 },
+                new int[]{ 1, 1, 2, 3, 4, 5 },
+                new int[]{ 1, 1, 2, 3, 4, 5 },
+                new int[]{ 1, 1, 2, 3, 4, 0 }
+            };
+            Console.WriteLine($"row = " + matrix.Length + " column = " + matrix[0].Length);
+
+            //ZeroMatrix.ZeroMatrixResult(matrix);
+            ZeroMatrix.ZeroMatrixResultBitVector(matrix);
+
+            Console.WriteLine("After setZero:");
+            for (int i = 0; i < matrix.Length; i++)
+            {
+                for (int j = 0; j < matrix[0].Length; j++)
+                {
+                    Console.WriteLine(matrix[i][j] + " ");
+                    Console.WriteLine();
+                }
+            }
+        }
+
+        /// <summary>
+        /// Given a N*N matrix , write a method to rotate the image by 90 degrees
+        /// </summary>
+        /// <param name="len"></param>
         public static void RotateMatrixImplementation(int len)
         {
             int[][] matrix = new int[len][];

@@ -33,6 +33,12 @@ Syntax highlighted code block
 ## 1.7 Rotate Matrix (RotateMatrix.cs)
 ### Given a N*N matrix , write a method to rotate the image by 90 degrees
 
+## 1.8 Zero Matrix (ZeroMatrix.cs)
+### Write an algo such that if an element in an MxN matrix is 0, its entire row and column are set to 0
+
+## 1.9 String Rotation (StringRotation.cs)
+### Assume you have a method iSubstring which checks if one word is substring of another. Given 2 strings, s1 and s2, write code to check if s2 is a rotation of s1 using only one call to isSubstring (e.g. waterbottle is a rotation of  erbottlewat)
+
 - Bulleted
 - List
 
