@@ -1,4 +1,5 @@
 ﻿using SolvedPuzzlesInCSharp.ArraysAndStrings;
+using SolvedPuzzlesInCSharp.LinkedLists;
 using System;
 
 namespace SolvedPuzzlesInCSharp
@@ -12,10 +13,16 @@ namespace SolvedPuzzlesInCSharp
             //just keeping the current solving problem in if condition; nothing else
             if (condition)
             {
-                StringRotation.IsStringRotation("waterbottle", "erbottlewat");
+                ReturnKthToLast.MainMethod(1);
             }
             else
             {
+                #region LinkedLists
+                RemoveDups<int>.MainMethod();
+                #endregion
+
+                #region Array and Strings
+                StringRotation.IsStringRotation("waterbottle", "erbottlewat");
                 ZeroMatrixImplementation();
                 RotateMatrixImplementation(4);
                 StringCompression.CompressedString("aabcccccaaa");
@@ -26,10 +33,14 @@ namespace SolvedPuzzlesInCSharp
                 UniqueString.VerifyUniqueStringAsciiSet("!@#$%$^&*()EFgh");
                 HashTableImplentation();
                 SwapWithoutTemp.SwapWithoutTempVar(12, 24);
+                #endregion
             }
         }
 
+
+
         #region Methods for calling corresponding Problem-Classes 
+
 
         /// <summary>
         /// Initial method - Write an algo such that if an element in an MxN matrix is 0, its entire row and column are set to 0

@@ -39,6 +39,13 @@ Syntax highlighted code block
 ## 1.9 String Rotation (StringRotation.cs)
 ### Assume you have a method iSubstring which checks if one word is substring of another. Given 2 strings, s1 and s2, write code to check if s2 is a rotation of s1 using only one call to isSubstring (e.g. waterbottle is a rotation of  erbottlewat)
 
+# Linked Lists
+## 2.1 Remove Dups (RemoveDups.cs)
+### Write code to remove duplicates from an unsorted linked list.
+
+## 2.2 Kth to Last Element (ReturnKthToLast.cs)
+### Find Kth to Last Element in a Singly Linked List
+
 - Bulleted
 - List
 
