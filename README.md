@@ -46,6 +46,10 @@ Syntax highlighted code block
 ## 2.2 Kth to Last Element (ReturnKthToLast.cs)
 ### Find Kth to Last Element in a Singly Linked List
 
+## 2.3 Delete Middle Node (DeleteMiddleNode.cs)
+### Implement an algorith to delete a node in the middle of a singly linked list, given only access to to that node
+
+
 - Bulleted
 - List
 
