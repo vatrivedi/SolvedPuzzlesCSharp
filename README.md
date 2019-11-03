@@ -49,6 +49,12 @@ Syntax highlighted code block
 ## 2.3 Delete Middle Node (DeleteMiddleNode.cs)
 ### Implement an algorith to delete a node in the middle of a singly linked list, given only access to to that node
 
+## 2.4 Partition Linked List (PartitionLinkedList.cs)
+### Given a linked list and a value x, partition it such that all nodes less than x come first, then all nodes with value equal to x and finally nodes with value greater than or equal to x. The original relative order of the nodes in each of the three partitions should be preserved. The partition must work in-place.
+
+## 2.5 Sum Lists (SumList.cs)
+### You have two numbers represented by a linked list, where each node contains a single digit. The digits are stored in reverse order, such that the 1s digit is at the head of the list. Write a functin that adds the two numbers and returns the sum as a linked list. 
+
 
 - Bulleted
 - List
@@ -62,11 +68,3 @@ Syntax highlighted code block
 ```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/vatrivedi/SolvedPuzzlesCSharp/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.

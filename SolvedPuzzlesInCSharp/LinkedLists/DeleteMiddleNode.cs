@@ -4,19 +4,20 @@ using System.Text;
 
 namespace SolvedPuzzlesInCSharp.LinkedLists
 {
-    public class Node
-    {
-        public Node Next;
-        public int Value;
 
-        public Node(int val)
-        {
-            this.Value = val;
-            this.Next = null;
-        }
-    }
     class DeleteMiddleNode
     {
+        public class Node
+        {
+            public Node Next;
+            public int Value;
+
+            public Node(int val)
+            {
+                this.Value = val;
+                this.Next = null;
+            }
+        }
         private Node head = null;
         private Node current = null;
         public int count = 0;

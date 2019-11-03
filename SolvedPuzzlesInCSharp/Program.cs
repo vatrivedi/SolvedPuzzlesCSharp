@@ -13,13 +13,14 @@ namespace SolvedPuzzlesInCSharp
             //just keeping the current solving problem in if condition; nothing else
             if (condition)
             {
-                DeleteMiddleNode.MainMethod();
+                SumList.MainMethod();
             }
             else
             {
                 #region LinkedLists
                 RemoveDups<int>.MainMethod();
                 ReturnKthToLast.MainMethod(1);
+                DeleteMiddleNode.MainMethod();
                 #endregion
 
                 #region Array and Strings
