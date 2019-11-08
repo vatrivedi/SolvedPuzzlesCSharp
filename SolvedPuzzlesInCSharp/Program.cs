@@ -1,5 +1,6 @@
 ﻿using SolvedPuzzlesInCSharp.ArraysAndStrings;
 using SolvedPuzzlesInCSharp.LinkedLists;
+using SolvedPuzzlesInCSharp.Stacks;
 using System;
 
 namespace SolvedPuzzlesInCSharp
@@ -13,7 +14,7 @@ namespace SolvedPuzzlesInCSharp
             //just keeping the current solving problem in if condition; nothing else
             if (condition)
             {
-                LoopDetection.MainMethod();
+                KStacks.MainMethod();
             }
             else
             {
@@ -23,6 +24,7 @@ namespace SolvedPuzzlesInCSharp
                 RemoveDups<int>.MainMethod();
                 ReturnKthToLast.MainMethod(1);
                 DeleteMiddleNode.MainMethod();
+                LoopDetection.MainMethod();
                 #endregion
 
                 #region Array and Strings
